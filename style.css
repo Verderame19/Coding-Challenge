@@ -1,0 +1,80 @@
+/* Struttura principale */
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+body > main{
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    width: 60%;
+    height: 850px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+main > div{
+    width: 80%;
+    margin: auto;
+ }
+ 
+ /* Intestazione */
+.logo{
+    display: block;
+    margin: auto;
+    padding-top: 10%;
+    width: 30%;
+}
+header > h1{
+    text-align: center;
+    color: rgb(5, 216, 5);
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Navigatore */
+nav{   
+    height: 40px;
+    background-color: rgb(5, 216, 5);;
+}
+nav > div{
+    display: block;
+    width: max-content;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: auto;
+    height: 40px;
+}
+
+/* Monopattini */
+.Mono{
+    color: white;
+    font-family: 'Quicksand',sans-serif;
+    margin-top: 25px;
+}
+section > span{   
+    font-size: 25px;
+}
+section > p{
+    margin: auto;
+    font-size: 16px;
+}
+.arrow:after{
+    content: "\21A6";
+}
+.highCharge{
+    width: 80%;
+    height: 25px;
+    background-color: rgb(0, 201, 0);
+    border-radius: 5px;
+}
+.mediumCharge{
+    width: 40%;
+    height: 25px;
+    background-color: orange;
+    border-radius: 5px;
+}
+.lowCharge{
+    width: 20%;
+    height: 25px;
+    background-color: rgb(201, 0, 0);
+    border-radius: 5px;
+}
